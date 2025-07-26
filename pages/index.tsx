@@ -52,8 +52,9 @@ export default function HomePage() {
         backdrop="blur"
         className="text-center"
         placement="center"
+        
       >
-        <ModalContent>
+        <ModalContent className="bg-white dark:bg-pink-100 shadow-xl rounded-xl">
           <ModalHeader className="text-2xl text-pink-600 font-bold">
             🎤 Hey Skeeter & Sherwin!
           </ModalHeader>

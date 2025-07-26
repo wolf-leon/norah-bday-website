@@ -5,6 +5,9 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Image from "next/image";
 import { NumberTicker } from "@/components/magicui/number-ticker";
 import { siteConfig } from "@/config/site";
+import { Button } from "@heroui/button";
+import { Link } from "@heroui/link";
+import { History } from 'lucide-react'; 
 
 const words = `Three years ago, a precious little bundle of joy came into our world. Since then, every smile, giggle, and hug has made life brighter. Today, we celebrate you — our shining star. Happy Birthday, little one! We love you so much, Snugglebug! 🎉💕`;
 
@@ -44,7 +47,22 @@ export default function DocsPage() {
         </div>
 
           <TextGenerateEffect words={words} />
+          
         </div>
+         <br></br>
+      <Link href="/memories">
+       <Button
+        color="primary"
+        radius="full"
+        size="lg"
+        className="bg-pink-500 text-white shadow-lg hover:scale-105 transition-transform"
+        startContent={<History size={20} />}
+      >
+         Let&apos;s fall back a little and relive the memories!
+      </Button>
+      </Link>
+      <br></br>
+
       </section>
     </DefaultLayout>
   );
