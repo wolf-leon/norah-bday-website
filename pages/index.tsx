@@ -7,8 +7,8 @@ import {
   ModalFooter,
   useDisclosure,
 } from "@heroui/react";
-import Image from "next/image";
-import Link from "next/link";
+import {Image} from "@heroui/image";
+import { Link } from "@heroui/link";
 
 export default function HomePage() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -28,8 +28,8 @@ export default function HomePage() {
         <Image
           src="/norah-photo.jpg" // Replace with actual photo
           alt="Norah smiling"
-          width={300}
-          height={300}
+          width={400}
+          height={500}
           className="rounded-full shadow-lg border-4 border-pink-300"
         />
       </div>

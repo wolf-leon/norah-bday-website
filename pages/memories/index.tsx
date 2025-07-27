@@ -30,9 +30,12 @@ export default function MemoriesPage() {
       {/* Family Section */}
       <section className="pt-4 pb-16 px-4 md:px-10 w-full">
        <div className="text-center mb-10">
-          <h2 className="text-4xl font-bold text-pink-600 dark:text-pink-300">
-            Loving Family
-          </h2>
+         
+          <h1
+            className={`${title()} text-4xl font-extrabold bg-gradient-to-r from-pink-500 via-fuchsia-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-md`}
+          >
+            The Loving Family
+          </h1>
 
           <p className="mt-4 text-gray-600 dark:text-gray-300 text-lg max-w-xl mx-auto">
             The amazing people who surround her with love, laughter, and endless support every day.

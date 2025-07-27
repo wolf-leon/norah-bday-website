@@ -2,7 +2,7 @@
 import { title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import Image from "next/image";
+import {Image} from "@heroui/image";
 import { NumberTicker } from "@/components/magicui/number-ticker";
 import { siteConfig } from "@/config/site";
 import { Button } from "@heroui/button";
@@ -27,7 +27,7 @@ export default function DocsPage() {
             src="/norah-photo.jpg"
             alt="Norah smiling"
             width={300}
-            height={300}
+            height={400}
             className="rounded-full shadow-lg border-4 border-pink-300"
           />
     <br></br>
