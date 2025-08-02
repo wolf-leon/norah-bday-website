@@ -132,7 +132,7 @@ export default function MemoriesPage() {
              A Message from Special People
           </h1>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
-            Some heartfelt words await from those who love her dearly — Her Amazing Godparents.
+            Some heartfelt words await from those who love her dearly — Suprise Ahead.
           </p>
 
           <Link

@@ -46,7 +46,7 @@ export default function BalloonGame() {
     setShowStopModal(false);
     setIsRunning(false);
     setBalloons([]);
-    router.push("/landing");
+    router.push("/leon_message");
     // Customize here if you want to navigate away or hide the game
   };
 
