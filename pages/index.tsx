@@ -16,7 +16,7 @@ export default function HomePage() {
   return (
     <section className="flex flex-col items-center justify-center text-center px-6 py-12 md:py-20 bg-pink-50 min-h-screen">
       <h1 className="text-4xl md:text-6xl font-bold text-pink-700 mb-4">
-        🎉 Happy 3rd Birthday, Norah! 🎂
+        Happy 3rd Birthday, Norah! 🎂🎉
       </h1>
 
       <p className="text-lg md:text-xl text-pink-600 max-w-xl mb-6">
@@ -26,9 +26,9 @@ export default function HomePage() {
 
       <div className="mb-6">
         <Image
-          src="/norah-photo.jpg" // Replace with actual photo
+          src="/norah-photo-13.jpeg" // Replace with actual photo
           alt="Norah smiling"
-          width={400}
+          width={420}
           height={500}
           className="rounded-full shadow-lg border-4 border-pink-300"
         />

@@ -235,7 +235,7 @@ export default function GodparentsPage() {
             <Button
               className="mt-6 bg-gradient-to-tr from-pink-500 to-yellow-500 shadow-lg text-white"
             >
-             Game Time → 
+             Let&apos;s Go → 
             </Button>
           </Link>
         </div>

@@ -10,17 +10,17 @@ const family = [
   {
     name: "Papa Bear",
     role: "Sherwin - Forever Hero & Favorite Storyteller",
-    image: "/temp.jpg", 
+    image: "/norah-photo-4.jpg", 
   },
   {
     name: "Mama bear",
     role: "Skeeter - Comfort, Guidance & Heart",
-    image: "/temp.jpg",
+    image: "/norah-photo-3.jpg",
   },
   {
     name: "Pookie Bear",
     role: "Nina Rose - Partner in Crime & Best Friend",
-    image: "/temp.jpg",
+    image: "/norah-photo-40.png",
   },
 ];
 
@@ -46,9 +46,9 @@ export default function MemoriesPage() {
           <div className="mt-6 flex justify-center">
             <Image
               alt="Family photo"
-              src="/temp.jpg" // Make sure the path is correct
-              width={600}
-              height={400}
+              src="/norah-family-photo.png" // Make sure the path is correct
+              width={400}
+              height={300}
               className="rounded-lg shadow-md mb-6"
             />
 

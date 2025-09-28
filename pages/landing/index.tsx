@@ -23,8 +23,9 @@ export default function DocsPage() {
             {siteConfig.name}
           </h1>
 
+
           <Image
-            src="/norah-photo.jpg"
+            src="/norah-photo-10.jpeg"
             alt="Norah smiling"
             width={300}
             height={400}
@@ -43,6 +44,10 @@ export default function DocsPage() {
               className="text-5xl font-bold text-red-500"
             />
             <span className="text-3xl">❤️</span>
+          </p>
+          <br></br>
+          <p className="text-4xl font-semibold text-pink-600 dark:text-pink-400">
+           Boss Baby!
           </p>
         </div>
 
