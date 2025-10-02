@@ -1,5 +1,7 @@
 import { Link } from "@heroui/link";
+
 import { Head } from "./head";
+
 import { Navbar } from "@/components/navbar";
 
 export default function DefaultLayout({
@@ -27,7 +29,7 @@ export default function DefaultLayout({
             color: "#000",
           }}
         >
-          Norah's Glow, Watch Her Grow !
+          Norah&apos;s Glow, Watch Her Grow !
         </div>
         <nav
           style={{

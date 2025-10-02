@@ -62,9 +62,11 @@ export default function BalloonGame() {
           if (prev.length < 3) {
             return [...prev, generateBalloon()];
           }
+
           return prev;
         });
       }, 600);
+
       return () => clearInterval(interval);
     }
   }, [isRunning, balloons]);
@@ -80,6 +82,7 @@ export default function BalloonGame() {
 
     const cleanupInterval = setInterval(() => {
       const now = Date.now();
+
       setBalloons(
         (prev) => prev.filter((balloon) => now - balloon.createdAt < 6000), // keep only balloons younger than 6 seconds
       );
@@ -95,10 +98,10 @@ export default function BalloonGame() {
       </h1>
 
       <div className="flex gap-4 mb-6">
-        <Button color="success" onPress={startGame} isDisabled={isRunning}>
+        <Button color="success" isDisabled={isRunning} onPress={startGame}>
           Start
         </Button>
-        <Button color="danger" onPress={stopGame} isDisabled={!isRunning}>
+        <Button color="danger" isDisabled={!isRunning} onPress={stopGame}>
           Stop
         </Button>
       </div>

@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Image } from "@heroui/image";
+
 import DefaultLayout from "@/layouts/default";
 import { title } from "@/components/primitives";
-import { Image } from "@heroui/image";
 
 const memories = [
   {
@@ -56,7 +57,8 @@ export default function MemoryWallPage() {
             Norah&apos;s Memory Wall
           </h1>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
-            A journey of love, laughter, and milestones — celebrating 3 magical years of Norah&apos;s life.
+            A journey of love, laughter, and milestones — celebrating 3 magical
+            years of Norah&apos;s life.
           </p>
         </div>
 
@@ -95,11 +97,11 @@ export default function MemoryWallPage() {
               className="flex flex-col items-center rounded-2xl shadow-lg overflow-hidden bg-pink-50 dark:bg-pink-900 hover:scale-105 transition-transform"
             >
               <Image
-                src={m.image}
                 alt={m.caption}
-                width={400}
-                height={300}
                 className="object-cover w-full h-64"
+                height={300}
+                src={m.image}
+                width={400}
               />
               <p className="text-center text-pink-700 dark:text-pink-200 p-4 font-medium">
                 {m.caption}
@@ -111,7 +113,9 @@ export default function MemoryWallPage() {
         {/* Closing Message */}
         <div className="mt-12 max-w-xl text-center text-gray-700 dark:text-gray-300">
           <p className="text-lg">
-            From your first giggles to your third birthday, Norah, every moment with you has been a treasure. We can&apos;t wait to make more memories!
+            From your first giggles to your third birthday, Norah, every moment
+            with you has been a treasure. We can&apos;t wait to make more
+            memories!
           </p>
         </div>
       </section>

@@ -7,7 +7,7 @@ import {
   ModalFooter,
   useDisclosure,
 } from "@heroui/react";
-import {Image} from "@heroui/image";
+import { Image } from "@heroui/image";
 import { Link } from "@heroui/link";
 
 export default function HomePage() {
@@ -26,19 +26,19 @@ export default function HomePage() {
 
       <div className="mb-6">
         <Image
-          src="/norah-photo-13.jpeg" // Replace with actual photo
           alt="Norah smiling"
-          width={420}
-          height={500}
           className="rounded-full shadow-lg border-4 border-pink-300"
+          height={500}
+          src="/norah-photo-13.jpeg" // Replace with actual photo
+          width={420}
         />
       </div>
 
       <Button
+        className="bg-pink-500 text-white shadow-lg hover:scale-105 transition-transform"
         color="primary"
         radius="full"
         size="lg"
-        className="bg-pink-500 text-white shadow-lg hover:scale-105 transition-transform"
         onPress={onOpen}
       >
         🧚 Explore Norah&apos;s Magical World
@@ -46,13 +46,12 @@ export default function HomePage() {
 
       {/* Advisory Modal */}
       <Modal
-        isOpen={isOpen}
-        onClose={onClose}
-        size="lg"
         backdrop="blur"
         className="text-center"
+        isOpen={isOpen}
         placement="center"
-        
+        size="lg"
+        onClose={onClose}
       >
         <ModalContent className="bg-white dark:bg-pink-100 shadow-xl rounded-xl">
           <ModalHeader className="text-2xl text-pink-600 font-bold">

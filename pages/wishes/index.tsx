@@ -1,9 +1,10 @@
-import { title } from "@/components/primitives";
-import DefaultLayout from "@/layouts/default";
 import { Image } from "@heroui/image";
 import { Link } from "@heroui/link";
 import { Divider } from "@heroui/divider";
 import { Button } from "@heroui/button";
+
+import DefaultLayout from "@/layouts/default";
+import { title } from "@/components/primitives";
 
 export default function GodparentsPage() {
   return (
@@ -21,22 +22,26 @@ export default function GodparentsPage() {
           {/* Godfather Profile */}
           <div className="flex flex-col items-center p-6 rounded-2xl shadow-2xl bg-blue-50 dark:bg-blue-900">
             <Image
-              src="/temp.jpg" // Replace with actual path
               alt="Godfather"
-              width={150}
-              height={150}
               className="mb-4 rounded-xl object-cover"
+              height={150}
+              src="/temp.jpg" // Replace with actual path
+              width={150}
             />
-            <h2 className="text-2xl font-bold text-blue-900 dark:text-white">Shennoy Da Costa</h2>
-            <span className="text-lg text-blue-600 dark:text-blue-300 mb-3 mt-3">Padrin - The GodFather🔥</span>
+            <h2 className="text-2xl font-bold text-blue-900 dark:text-white">
+              Shennoy Da Costa
+            </h2>
+            <span className="text-lg text-blue-600 dark:text-blue-300 mb-3 mt-3">
+              Padrin - The GodFather🔥
+            </span>
             <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
               Always cool, always kind — your guide through fun and life.
             </p>
             <Link
-              href="https://drive.google.com/your-godfather-video-link"
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-blue-600 text-white px-5 py-2 rounded-xl hover:bg-blue-700 transition"
+              href="https://drive.google.com/your-godfather-video-link"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Watch Video
             </Link>
@@ -45,22 +50,26 @@ export default function GodparentsPage() {
           {/* Godmother Profile */}
           <div className="flex flex-col items-center p-6 rounded-2xl shadow-2xl bg-pink-50 dark:bg-pink-900">
             <Image
-              src="/temp.jpg" // Replace with actual path
               alt="Godmother"
-              width={150}
-              height={150}
               className="mb-4 rounded-xl object-cover"
+              height={150}
+              src="/temp.jpg" // Replace with actual path
+              width={150}
             />
-            <h2 className="text-2xl font-bold text-pink-900 dark:text-white">Patricia Cabral</h2>
-            <span className="text-lg text-pink-600 dark:text-pink-300 mb-3 mt-3">Madrin - The GodMother ❤️</span>
+            <h2 className="text-2xl font-bold text-pink-900 dark:text-white">
+              Patricia Cabral
+            </h2>
+            <span className="text-lg text-pink-600 dark:text-pink-300 mb-3 mt-3">
+              Madrin - The GodMother ❤️
+            </span>
             <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
               Full of love and sparkle — your fairy in real life.
             </p>
             <Link
-              href="https://drive.google.com/your-godmother-video-link"
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-pink-500 text-white px-5 py-2 rounded-xl hover:bg-pink-600 transition"
+              href="https://drive.google.com/your-godmother-video-link"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Watch Video
             </Link>
@@ -68,9 +77,7 @@ export default function GodparentsPage() {
         </div>
       </section>
 
-
       <Divider className="my-8 w-1/2 mx-auto bg-pink-300 dark:bg-pink-500 h-0.5" />
-
 
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 px-4">
         <div className="inline-block max-w-lg text-center mb-6">
@@ -85,22 +92,28 @@ export default function GodparentsPage() {
         <div className="flex justify-center w-full">
           <div className="flex flex-col items-center p-6 rounded-2xl shadow-2xl bg-blue-50 dark:bg-blue-900">
             <Image
-              src="/temp.jpg" // Replace with actual path
               alt="Grandfather"
-              width={150}
-              height={150}
               className="mb-4 rounded-xl object-cover"
+              height={150}
+              src="/temp.jpg" // Replace with actual path
+              width={150}
             />
-            <h2 className="text-2xl font-bold text-blue-900 dark:text-white">Peter Cabral</h2>
-            <span className="text-lg text-blue-600 dark:text-blue-300 mb-3 mt-3"> Avô - GrandFather 🔥</span>
+            <h2 className="text-2xl font-bold text-blue-900 dark:text-white">
+              Peter Cabral
+            </h2>
+            <span className="text-lg text-blue-600 dark:text-blue-300 mb-3 mt-3">
+              {" "}
+              Avô - GrandFather 🔥
+            </span>
             <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
-               Gentle hands, endless stories, and the warmest hugs — your love is forever.
+              Gentle hands, endless stories, and the warmest hugs — your love is
+              forever.
             </p>
             <Link
-              href="https://drive.google.com/your-godfather-video-link"
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-blue-600 text-white px-5 py-2 rounded-xl hover:bg-blue-700 transition"
+              href="https://drive.google.com/your-godfather-video-link"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Watch Video
             </Link>
@@ -123,26 +136,26 @@ export default function GodparentsPage() {
         <div className="flex justify-center w-full">
           <div className="flex flex-col items-center p-6 rounded-2xl shadow-2xl bg-pink-50 dark:bg-pink-900 max-w-sm">
             <Image
-              src="/temp.jpg" // Replace with actual image path
               alt="Aunt"
-              width={150}
-              height={150}
               className="mb-4 rounded-xl object-cover"
+              height={150}
+              src="/temp.jpg" // Replace with actual image path
+              width={150}
             />
             <h2 className="text-2xl font-bold text-pink-900 dark:text-white text-center">
               Francesca Valadares
             </h2>
             <span className="text-lg text-pink-600 dark:text-pink-300 mb-3 mt-3 text-center">
-              Xhaka -  Your loving Tia ❤️
+              Xhaka - Your loving Tia ❤️
             </span>
             <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
               A sprinkle of joy, a hug full of magic — always here with love.
             </p>
             <Link
-              href="https://drive.google.com/your-godmother-video-link"
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-pink-500 text-white px-5 py-2 rounded-xl hover:bg-pink-600 transition"
+              href="https://drive.google.com/your-godmother-video-link"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Watch Video
             </Link>
@@ -150,9 +163,7 @@ export default function GodparentsPage() {
         </div>
       </section>
 
-
       <Divider className="my-8 w-1/2 mx-auto bg-pink-300 dark:bg-pink-500 h-0.5" />
-
 
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block max-w-lg text-center justify-center mb-6">
@@ -167,22 +178,27 @@ export default function GodparentsPage() {
           {/* Godfather Profile */}
           <div className="flex flex-col items-center p-6 rounded-2xl shadow-2xl bg-blue-50 dark:bg-blue-900">
             <Image
-              src="/temp.jpg" // Replace with actual path
               alt="Cousin Roger"
-              width={150}
-              height={150}
               className="mb-4 rounded-xl object-cover"
+              height={150}
+              src="/temp.jpg" // Replace with actual path
+              width={150}
             />
-            <h2 className="text-2xl font-bold text-blue-900 dark:text-white">Roger Pereira</h2>
-            <span className="text-lg text-blue-600 dark:text-blue-300 mb-3 mt-3">Cousin - Your Adventure Buddy 🚀</span>
+            <h2 className="text-2xl font-bold text-blue-900 dark:text-white">
+              Roger Pereira
+            </h2>
+            <span className="text-lg text-blue-600 dark:text-blue-300 mb-3 mt-3">
+              Cousin - Your Adventure Buddy 🚀
+            </span>
             <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
-              Always ready for fun, games, and a little bit of mischief — you can count on me!
+              Always ready for fun, games, and a little bit of mischief — you
+              can count on me!
             </p>
             <Link
-              href="https://drive.google.com/your-godfather-video-link"
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-blue-600 text-white px-5 py-2 rounded-xl hover:bg-blue-700 transition"
+              href="https://drive.google.com/your-godfather-video-link"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Watch Video
             </Link>
@@ -191,22 +207,27 @@ export default function GodparentsPage() {
           {/* Godmother Profile */}
           <div className="flex flex-col items-center p-6 rounded-2xl shadow-2xl bg-pink-50 dark:bg-pink-900">
             <Image
-              src="/temp.jpg" // Replace with actual path
               alt="Cousin Mia"
-              width={150}
-              height={150}
               className="mb-4 rounded-xl object-cover"
+              height={150}
+              src="/temp.jpg" // Replace with actual path
+              width={150}
             />
-            <h2 className="text-2xl font-bold text-pink-900 dark:text-white">Mia Valadares</h2>
-            <span className="text-lg text-pink-600 dark:text-pink-300 mb-3 mt-3">Cousin - Sweetest Partner in Crime 🎀</span>
+            <h2 className="text-2xl font-bold text-pink-900 dark:text-white">
+              Mia Valadares
+            </h2>
+            <span className="text-lg text-pink-600 dark:text-pink-300 mb-3 mt-3">
+              Cousin - Sweetest Partner in Crime 🎀
+            </span>
             <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
-              Full of giggles, hugs, and fun — life is better when we&apos;re together!
+              Full of giggles, hugs, and fun — life is better when we&apos;re
+              together!
             </p>
             <Link
-              href="https://drive.google.com/your-godmother-video-link"
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-pink-500 text-white px-5 py-2 rounded-xl hover:bg-pink-600 transition"
+              href="https://drive.google.com/your-godmother-video-link"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Watch Video
             </Link>
@@ -214,34 +235,26 @@ export default function GodparentsPage() {
         </div>
       </section>
 
-
       <Divider className="my-8 w-1/2 mx-auto bg-pink-300 dark:bg-pink-500 h-0.5" />
-
 
       <section className="flex flex-col items-center justify-center px-4 py-10 md:py-16">
         <div className="text-center max-w-2xl">
           <h1
             className={`${title()} text-4xl font-extrabold bg-gradient-to-r from-pink-500 via-fuchsia-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-md`}
           >
-             Something Exciting Ahead!
+            Something Exciting Ahead!
           </h1>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
             A Small Note and Fun Game incoming!
           </p>
 
-          <Link
-            href="/leon_message"
-          >
-            <Button
-              className="mt-6 bg-gradient-to-tr from-pink-500 to-yellow-500 shadow-lg text-white"
-            >
-             Let&apos;s Go → 
+          <Link href="/leon_message">
+            <Button className="mt-6 bg-gradient-to-tr from-pink-500 to-yellow-500 shadow-lg text-white">
+              Let&apos;s Go →
             </Button>
           </Link>
         </div>
-
       </section>
-
     </DefaultLayout>
   );
 }

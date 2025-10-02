@@ -1,8 +1,9 @@
-import { title } from "@/components/primitives";
-import DefaultLayout from "@/layouts/default";
 import { Link } from "@heroui/link";
 import { Divider } from "@heroui/divider";
 import { Button } from "@heroui/button";
+
+import DefaultLayout from "@/layouts/default";
+import { title } from "@/components/primitives";
 
 export default function MessageFromMePage() {
   return (
@@ -28,21 +29,31 @@ export default function MessageFromMePage() {
           <Divider className="my-8 w-1/2 mx-auto bg-pink-300 dark:bg-pink-500 h-0.5" />
 
           <p className="text-lg md:text-xl text-gray-800 dark:text-gray-100 text-center leading-relaxed font-semibold">
-            I hope your day is filled with smiles, cake, and all the magic you deserve.
-            You bring so much joy everywhere you go — and I just know you're going to do amazing things!
-            <br /><br />
-            I wish you laughter, big dreams, and all the fun in the world. And hey... I trust you to always be kind, curious, and full of life — just the way you are.
-            <br /><br />
-            Of course, you already know I&apos;m your favourite uncle (no debates 😎).
-            Call me, message me, or just send a big emoji blast — I&apos;m always just a tap away!
-            <br /><br />
+            I hope your day is filled with smiles, cake, and all the magic you
+            deserve. You bring so much joy everywhere you go — and I just know
+            you&apos;re going to do amazing things!
+            <br />
+            <br />
+            I wish you laughter, big dreams, and all the fun in the world. And
+            hey... I trust you to always be kind, curious, and full of life —
+            just the way you are.
+            <br />
+            <br />
+            Of course, you already know I&apos;m your favourite uncle (no
+            debates 😎). Call me, message me, or just send a big emoji blast —
+            I&apos;m always just a tap away!
+            <br />
+            <br />
             Sending you the biggest high-five and a whole bunch of hugs...
+            <br />
+            <br />
+            KEEP SLAAAAYYYING PRINCESS!!!!!!👸
           </p>
 
           <Divider className="my-8 w-1/2 mx-auto bg-pink-300 dark:bg-pink-500 h-0.5" />
 
           <p className="mt-10 text-4xl italic font-bold text-pink-500 dark:text-pink-400 text-center">
-            — Uncle Leon 🫶
+            — Lulu 🫶
           </p>
         </div>
       </section>
