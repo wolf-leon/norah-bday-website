@@ -62,7 +62,7 @@ export default function DocsPage() {
             size="lg"
             startContent={<History size={20} />}
           >
-            Let&apos;s fall back a little and relive the memories!
+            Let&apos;s relive the memories!
           </Button>
         </Link>
         <br />

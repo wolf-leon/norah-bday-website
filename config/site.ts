@@ -14,8 +14,8 @@ export const siteConfig = {
       href: "/memories",
     },
     {
-      label: "Wishes",
-      href: "/wishes",
+      label: "Gallery",
+      href: "/memory_wall",
     },
     {
       label: "Game",
@@ -36,8 +36,8 @@ export const siteConfig = {
       href: "/memories ",
     },
     {
-      label: "Wishes",
-      href: "/Wishes",
+      label: "Gallery",
+      href: "/memory_wall",
     },
     {
       label: "Game",

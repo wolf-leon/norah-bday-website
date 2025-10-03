@@ -52,10 +52,10 @@ export default function DefaultLayout({
             Memories
           </Link>
           <Link
-            href="/wishes"
+            href="/memory_wall"
             style={{ color: "#000", textDecoration: "none" }}
           >
-            Wishes
+            Gallery
           </Link>
           <Link
             href="/fun_game"

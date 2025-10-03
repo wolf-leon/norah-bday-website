@@ -267,7 +267,7 @@ export default function MemoriesPage() {
 
           <Link
             isExternal
-            href="https://drive.google.com/file/d/1Errfz2Vjz_5cngzs4SZTtyQsOrq-Tmw8/view?usp=sharing"
+            href="https://drive.google.com/file/d/1-XmqrRqQYzeoiucA0oMaXTAOIbnszb56/view?usp=sharing"
           >
             <Button
               className="mt-6 bg-gradient-to-tr from-pink-500 to-yellow-500 shadow-lg text-white"
@@ -284,7 +284,7 @@ export default function MemoriesPage() {
             allowFullScreen
             allow="autoplay"
             className="w-full h-full"
-            src="https://drive.google.com/file/d/1Errfz2Vjz_5cngzs4SZTtyQsOrq-Tmw8/preview"
+            src="https://drive.google.com/file/d/1-XmqrRqQYzeoiucA0oMaXTAOIbnszb56/preview"
             title="Memories Video"
           />
         </div>
@@ -292,7 +292,6 @@ export default function MemoriesPage() {
 
       <Divider className="my-8 w-1/2 mx-auto bg-pink-300 dark:bg-pink-500 h-0.5" />
 
-      {/* GodParent people Section */}
       <section className="flex flex-col items-center justify-center px-4 py-10 md:py-16">
         <div className="text-center max-w-2xl">
           <h1
@@ -307,6 +306,29 @@ export default function MemoriesPage() {
           <Link href="/leon_message">
             <Button className="mt-6 bg-gradient-to-tr from-pink-500 to-yellow-500 shadow-lg text-white">
               Let&apos;s Go →
+            </Button>
+          </Link>
+        </div>
+      </section>
+
+      <Divider className="my-8 w-1/2 mx-auto bg-pink-300 dark:bg-pink-500 h-0.5" />
+
+      <section className="flex flex-col items-center justify-center px-4 py-10 md:py-16">
+        <div className="text-center max-w-2xl">
+          <h1
+            className={`${title()} text-4xl font-extrabold bg-gradient-to-r from-pink-500 via-fuchsia-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-md`}
+          >
+            Gallery - Photo wall
+          </h1>
+          <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+            A compilation of all the precious memories from the last three
+            years, captured as a photo gallery. Relive the laughter, the fun,
+            and the milestones anytime you wish!
+          </p>
+
+          <Link href="/memory_wall">
+            <Button className="mt-6 bg-gradient-to-tr from-pink-500 to-yellow-500 shadow-lg text-white">
+              Camera Time! →
             </Button>
           </Link>
         </div>
