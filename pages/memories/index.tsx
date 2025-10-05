@@ -101,7 +101,7 @@ export default function MemoriesPage() {
             <Image
               alt="Godfather"
               className="mb-4 rounded-xl object-cover"
-              height={180}
+              height={200}
               src="/norah-photo-5.png" // Replace with actual path
               width={150}
             />
@@ -109,7 +109,7 @@ export default function MemoriesPage() {
               Shennoy Da Costa
             </h2>
             <span className="text-lg text-blue-600 dark:text-blue-300 mb-3 mt-3">
-              Padrin - The GodFather🔥
+              Padrin - GodFather🔥
             </span>
             <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
               Always cool, always kind — your guide through fun and life.
@@ -121,7 +121,7 @@ export default function MemoriesPage() {
             <Image
               alt="Godmother"
               className="mb-4 rounded-xl object-cover"
-              height={180}
+              height={200}
               src="/norah-photo-36.jpeg" // Replace with actual path
               width={150}
             />
@@ -129,7 +129,7 @@ export default function MemoriesPage() {
               Patricia Cabral
             </h2>
             <span className="text-lg text-pink-600 dark:text-pink-300 mb-3 mt-3">
-              Madrin - The GodMother ❤️
+              Madrin - GodMother❤️
             </span>
             <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
               Full of love and sparkle — your fairy in real life.
@@ -188,6 +188,26 @@ export default function MemoriesPage() {
             </span>
             <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
               Fills your world with love, hugs, and support.
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center p-6 rounded-2xl shadow-2xl bg-pink-50 dark:bg-pink-900">
+            <Image
+              alt="Godmother"
+              className="mb-4 rounded-xl object-cover"
+              height={180}
+              src="/norah-photo-42.jpeg" // Replace with actual path
+              width={150}
+            />
+            <h2 className="text-2xl font-bold text-pink-900 dark:text-white">
+              Late Gina Cabral
+            </h2>
+            <span className="text-lg text-pink-600 dark:text-pink-300 mb-3 mt-3">
+              Avo - Grandmother
+            </span>
+            <p className="text-center text-gray-700 dark:text-gray-300 mb-4">
+              Forever in our hearts — your love, laughter, and gentle spirit
+              continue to bless Norah every day.
             </p>
           </div>
 
@@ -273,7 +293,7 @@ export default function MemoriesPage() {
               className="mt-6 bg-gradient-to-tr from-pink-500 to-yellow-500 shadow-lg text-white"
               startContent={<History size={18} />}
             >
-              Video not loading? Click to view it on Google Drive
+              Click to view it on Google Drive
             </Button>
           </Link>
         </div>
