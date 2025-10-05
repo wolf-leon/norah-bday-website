@@ -32,6 +32,11 @@ const memories = [
   },
   {
     year: 1,
+    image: "/norah-photo-42.jpeg",
+    caption: "Forever in my heart, my beloved late grandma 💕",
+  },
+  {
+    year: 1,
     image: "/norah-photo-5.png",
     caption: "Godpa smooching me 😘",
   },
